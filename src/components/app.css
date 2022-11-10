@@ -3,3 +3,18 @@
     height: 50px;
     
 }
+
+.cardProducto {
+    width: 18rem;
+    margin: 4px;
+    background-color: rgba(0, 255, 179, 0.74);
+    
+}
+
+.itemDetail{
+    max-width: 540 px;
+    margin-top: 20px;
+  
+}
+
+

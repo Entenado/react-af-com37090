@@ -1,0 +1,102 @@
+[
+    {
+        
+        "id": 1,
+        "idCategoria": 1,
+        "nombre": "medialunas" ,
+        "precio": 35,
+        "stock": 250,
+        "img": "Medialuna.png"
+        
+    },
+
+    {
+        "id": 2,
+        "idCategoria": 1,
+        "nombre": "Alfajores" ,
+        "precio": 135,
+        "stock": 150,
+        "img": "Alfajor.png"
+    },
+    {
+        "id": 3,
+        "idCategoria": 1,
+        "nombre": "Galletas con chip de chocolate" ,
+        "precio": 25,
+        "stock": 750,
+        "img": "Galletas.png"
+    },
+    {
+        "id": 4,
+        "idCategoria": 1,
+        "nombre": "Torta selva negra" ,
+        "precio": 850,
+        "stock": 25,
+        "img":"SelvaNegra.png"
+    },
+    {
+        "id": 5,
+        "idCategoria": 1,
+        "nombre": "Pan dulce" ,
+        "precio": 540,
+        "stock": 25,
+        "img":"PanDulce.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Budin",
+        "idCategoria": 1,
+        "precio": 430,
+        "stock": 15,
+        "img": "budin.png"
+    },
+    {
+        "id": 7,
+        "idCategoria": 2,
+        "nombre": "Pan blanco" ,
+        "precio": 360,
+        "stock": 15,
+        "img": "PanBlanco.png"
+    },
+    {
+        "id": 8,
+        "idCategoria": 2,
+        "nombre": "Pan con semilla" ,
+        "precio": 430,
+        "stock": 15,
+        "img": "PanConSemillas.png"
+    },
+    {
+        "id": 9,
+        "idCategoria": 2,
+        "nombre": "Bizcocho de grasa" ,
+        "precio": 135,
+        "stock": 150,
+        "img":"BizcochoDeGrasa.png"
+    },
+    {
+        "id": 10,
+        "idCategoria": 3,
+        "nombre": "Empanadas" ,
+        "precio": 350,
+        "stock": 150,
+        "img":"Empanadas.png"
+    },
+    {
+        "id": 11,
+        "idCategoria": 3,
+        "nombre": "Tarta" ,
+        "precio": 750,
+        "stock": 35,
+        "img":"Tartas.png"
+    },
+    {
+        "id": 12,
+        "idCategoria": 3,
+        "nombre": "Sandwich de miga" ,
+        "precio": 150,
+        "stock": 60,
+        "img":"sandwichDeMiga.png"
+    }
+
+]

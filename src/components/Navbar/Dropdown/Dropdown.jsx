@@ -1,16 +1,23 @@
-
+import { Link } from "react-router-dom";
+import { IoStorefrontOutline } from "react-icons/io5";
 const Dropdown = () => {
     return (
         
             <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Tienda
+          <button className="btn btn-secondary"> <IoStorefrontOutline/> </button>
           </a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Pastelería</a></li>
-            <li><a className="dropdown-item" href="#">Panadería</a></li>
+            <li>
+              <Link className="dropdown-item" to={`/category/1`}>Pastelería</Link>
+            </li>
+            <li>
+              <Link className="dropdown-item" to={`/category/2`}>Panadería</Link>
+              </li>
             <li><hr className="dropdown-divider" /></li>
-            <li><a className="dropdown-item" href="#">Salado</a></li>
+            <li>
+              <Link className="dropdown-item" to={`/category/3`}>Salado</Link>
+              </li>
           </ul>
         </li>
         
