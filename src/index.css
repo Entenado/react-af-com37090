@@ -66,35 +66,3 @@ body{
 }
 
 
-.whatsapp {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: Roboto, "sans-serif";
-}
-
-.mail {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: Roboto, "sans-serif";
-}
-
-.instagram{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: Roboto, "sans-serif";
-}
-
-.house{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: Roboto, "sans-serif";
-    font-size: 1.7rem;
-}
-
-.contacto{
-   
-    width: 130px;
-    cursor: pointer;
-    color: black;
-   
-}

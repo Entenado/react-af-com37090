@@ -3,7 +3,7 @@ import "./navbar.css"
 import Dropdown from "./Dropdown/Dropdown";
 import { IoHomeOutline } from "react-icons/io5";
 import CartWidget from "../CartWidget/CartWidget";
-import { IoLogoWhatsapp } from "react-icons/io5";
+
 
 const Navbar = () => {
     return (
@@ -26,13 +26,6 @@ const Navbar = () => {
         </li>
 
         <Dropdown/>
-
-        <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/contact">
-          <button className="btn btn-secondary"><IoLogoWhatsapp/></button>
-            </Link>
-        </li>
-        
        
         </ul>
         

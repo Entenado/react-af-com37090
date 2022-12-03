@@ -12,7 +12,6 @@ import Navbar from "./Navbar/Navbar";
 import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
 import Cart from "./Cart/Cart";
 import ItemListContainer from './ItemListContainer/ItemListContainer';
-import Contact from "./Navbar/Contact/Contact";
 import Checkout from './Checkout/Checkout'
 const App = () => {
   return (
@@ -25,7 +24,6 @@ const App = () => {
          <Route path="/product/:id" element={<ItemDetailContainer/>}/>
          <Route path="/cart" element={<Cart/>}/>
          <Route path='/category/:category' element={<ItemListContainer/>}/>
-         <Route path="/contact" element={<Contact/>}/>
          <Route path='/checkout' element={<Checkout/>}></Route>
          <Route path='*' element = {<h1>Ruta no encontrado</h1>} />
         </Routes>
