@@ -7,14 +7,60 @@
 .cardProducto {
     width: 18rem;
     margin: 4px;
-    background-color: rgba(0, 255, 179, 0.74);
+    background-color: rgba(0, 0, 0, 0.74);
+
     
 }
 
 .itemDetail{
     max-width: 540 px;
     margin-top: 20px;
-  
+    
 }
 
 
+.nombre{
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.315);
+}
+.cantidad{
+    color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.315);
+}
+.preciou{
+    color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.315);
+}
+.subtotal{
+    color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.315);
+
+}
+
+.prueba1{
+    margin-left: 20%;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+.carritovacio{
+    font-size: 30px ;
+    width: 40%;
+    color: rgb(0, 0, 0);
+    margin-left: 20%;
+    text-align: center;
+    justify-content: center;
+}
+.inicio{
+    
+    width: 40%;
+    color: rgb(0, 225, 255);
+    margin-left: 20%;
+    text-align: center;
+    justify-content: center;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+    background-color: black;
+}
