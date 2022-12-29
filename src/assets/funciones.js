@@ -1,9 +1,9 @@
-import { cargarBDD, getProductos } from "./firebase.js"
+import { cargarBDD, createProducto, getProductos } from "./firebase"
 
 export const consultarBDD = async (ruta) => {
     const promise = await fetch(ruta)
     const productos = await promise.json()
     return productos
 }
- 
-cargarBDD () 
+
+//cargarBDD () 

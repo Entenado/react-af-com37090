@@ -1,7 +1,8 @@
 import {useState, useEffect, useContext} from 'react';
 import {useParams} from 'react-router-dom'
 import ItemDetail from '../ItemDetail/ItemDetail';
-import { getProducto } from '../../assets/firebase.js'
+import { getProducto } from '../../assets/firebase.js';
+import { consultarBDD } from '../../assets/funciones';
 
 const ItemDetailContainer = () => {
 
@@ -10,7 +11,10 @@ const ItemDetailContainer = () => {
     
     useEffect(() => {
         getProducto(id).then(prod => {
-            setProducto(prod)
+            /*consultarBDD('../json/productos.json').then(productos =>{
+                const prod = productos.find(productoArray => productoArray.id === parseInt(id))*/    
+            
+                setProducto(prod)
         })
     }, []);
 

@@ -13,10 +13,10 @@ const cliente = {
     nombre: "Pedro",
     apellido: "Parker",
     email: "pedrito@parker.com",
-    dni: 123123,
+    dni: 123123, 
     direccion: "Calle Falsa 123"
 }*/
 /*createOrdenCompra(cliente, 12500, Date.now()).then(orden => console.log(orden))
 getOrdenCompra("wpcYkyiHFztCLKSRy8le").then(orden => console.log(orden))*/
 
-cargarBDD()
+//cargarBDD()

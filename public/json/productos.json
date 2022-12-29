@@ -6,7 +6,7 @@
         "nombre": "medialunas" ,
         "precio": 35,
         "stock": 250,
-        "img": "https://firebasestorage.googleapis.com/v0/b/react37090.appspot.com/o/Medialuna.png?alt=media&token=4f6dcaa5-67af-41ce-9f5a-6126edba4daa"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react37090af.appspot.com/o/Medialuna.png?alt=media&token=892d5a83-de8f-40cc-a727-635bfd8d1ba2"
        
     },
 
@@ -16,7 +16,7 @@
         "nombre": "Alfajores" ,
         "precio": 55,
         "stock": 150,
-        "img": "https://firebasestorage.googleapis.com/v0/b/react37090.appspot.com/o/Alfajor.png?alt=media&token=fa21131c-7e64-4625-a2e8-85eb867de7ac"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react37090af.appspot.com/o/Alfajor.png?alt=media&token=d1d8349e-3568-4170-8edd-49a29a0984b9"
        
     },
     {
@@ -25,7 +25,7 @@
         "nombre": "Galletas con chip de chocolate" ,
         "precio": 25,
         "stock": 750,
-        "img": "https://firebasestorage.googleapis.com/v0/b/react37090.appspot.com/o/Galletas.png?alt=media&token=da615af2-c5c6-4b5b-8eea-68ce929ac88e"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react37090af.appspot.com/o/Galletas.png?alt=media&token=418209fd-1631-4364-9991-a5d45ad74611"
        
     },
     {
@@ -34,7 +34,7 @@
         "nombre": "Torta selva negra" ,
         "precio": 850,
         "stock": 25,
-        "img":"https://firebasestorage.googleapis.com/v0/b/react37090.appspot.com/o/SelvaNegra.png?alt=media&token=2cf19f15-10f3-45be-ac89-10cbbe77a1d0"
+        "img":"https://firebasestorage.googleapis.com/v0/b/react37090af.appspot.com/o/SelvaNegra.png?alt=media&token=a9551eca-965b-419f-98e1-e46cc113c77d"
        
     },
     {
@@ -43,7 +43,7 @@
         "nombre": "Pan dulce" ,
         "precio": 540,
         "stock": 25,
-        "img":"https://firebasestorage.googleapis.com/v0/b/react37090.appspot.com/o/PanDulce.png?alt=media&token=779d688d-771f-4052-afb0-4091933db99b"
+        "img":"https://firebasestorage.googleapis.com/v0/b/react37090af.appspot.com/o/PanDulce.png?alt=media&token=c1ec2ac8-d216-418c-ac8a-53c968c6ab64"
        
     },
     {
@@ -52,7 +52,7 @@
         "idCategoria": 1,
         "precio": 430,
         "stock": 15,
-        "img": "https://firebasestorage.googleapis.com/v0/b/react37090.appspot.com/o/budin.png?alt=media&token=4eb97bc7-914c-4503-beac-27108fb4dc1d"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react37090af.appspot.com/o/budin.png?alt=media&token=cd20d69d-0691-471b-820b-8d9b675277ae"
         
     },
     {
@@ -61,7 +61,7 @@
         "nombre": "Pan blanco" ,
         "precio": 360,
         "stock": 15,
-        "img": "https://firebasestorage.googleapis.com/v0/b/react37090.appspot.com/o/PanBlanco.png?alt=media&token=adae2eb2-3e4a-4057-878a-1ee20e1c6937"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react37090af.appspot.com/o/PanBlanco.png?alt=media&token=edce0be6-f4e4-49b0-bd23-bc0fb3a779ec"
        
     },
     {
@@ -70,7 +70,7 @@
         "nombre": "Pan con semilla" ,
         "precio": 430,
         "stock": 15,
-        "img": "https://firebasestorage.googleapis.com/v0/b/react37090.appspot.com/o/Pan%20con%20semillas.png?alt=media&token=890d494c-e3fa-4c24-ad4e-d7bced90bd11"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react37090af.appspot.com/o/Pan%20con%20semillas.png?alt=media&token=65d40e25-784d-47eb-b774-c783d4f16f4d"
         
     },
     {
@@ -79,7 +79,7 @@
         "nombre": "Bizcocho de grasa" ,
         "precio": 35,
         "stock": 150,
-        "img":"https://firebasestorage.googleapis.com/v0/b/react37090.appspot.com/o/BizcochoDeGrasa.png?alt=media&token=c4c288f0-3aff-47f1-abc5-2e0e96a03e32"
+        "img": "https://firebasestorage.googleapis.com/v0/b/react37090af.appspot.com/o/BizcochoDeGrasa.png?alt=media&token=101692f2-ff42-4052-bc24-fc321f782266"
         
     },
     {
@@ -88,7 +88,7 @@
         "nombre": "Empanadas" ,
         "precio": 250,
         "stock": 150,
-        "img":"https://firebasestorage.googleapis.com/v0/b/react37090.appspot.com/o/Empanadas.png?alt=media&token=31c91338-ab28-49bd-874b-7168f4cf1904"
+        "img":"https://firebasestorage.googleapis.com/v0/b/react37090af.appspot.com/o/Empanadas.png?alt=media&token=648a0c62-ed46-4acf-ba70-1c24ff25c1fd"
         
     },
     {
@@ -97,7 +97,7 @@
         "nombre": "Tarta" ,
         "precio": 750,
         "stock": 35,
-        "img":"https://firebasestorage.googleapis.com/v0/b/react37090.appspot.com/o/Tartas.png?alt=media&token=fccdc55e-056f-4ba1-b6e8-b1aae1f70eb0"
+        "img":"https://firebasestorage.googleapis.com/v0/b/react37090af.appspot.com/o/Tartas.png?alt=media&token=fb2357a2-941f-431c-9580-1c14c8324b96"
        
     },
     {
@@ -106,7 +106,7 @@
         "nombre": "Sandwich de miga" ,
         "precio": 150,
         "stock": 60,
-        "img":"https://firebasestorage.googleapis.com/v0/b/react37090.appspot.com/o/sandwichDeMiga.png?alt=media&token=0c15da99-80c7-4ac4-a185-9303c8551655"
+        "img":"https://firebasestorage.googleapis.com/v0/b/react37090af.appspot.com/o/sandwichDeMiga.png?alt=media&token=28953f7e-bbcc-42d0-bdf0-4b529063a40b"
        
     }
 

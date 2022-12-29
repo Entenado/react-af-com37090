@@ -6,14 +6,14 @@ import {getFirestore, collection, addDoc, getDocs, getDoc, doc, updateDoc, delet
 
 const firebaseConfig = {
   apiKey: process.env.API_KEY,
-  authDomain: "react37090.firebaseapp.com",
-  projectId: "react37090",
-  storageBucket: "react37090.appspot.com",
-  messagingSenderId: "563722254447",
-  appId: "1:563722254447:web:f0b719d5c36f746323f59a"
+  authDomain: "react37090af.firebaseapp.com",
+  projectId: "react37090af",
+  storageBucket: "react37090af.appspot.com",
+  messagingSenderId: "202375676933",
+  appId: "1:202375676933:web:566e0d286fda0ae520486c"
 };
 
-// Initialize Firebase
+ //Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
 const db = getFirestore() 
@@ -23,8 +23,8 @@ const cargarBDD = async () => {
   const productos = await promise.json()
   productos.forEach(async (prod) => {
       await addDoc(collection(db, "productos"), {
+          idCategoria: prod.idCategoria,  
           nombre: prod.nombre,
-          idCategoria: prod.idCategoria,
           stock: prod.stock,
           precio: prod.precio,
           img: prod.img
@@ -51,7 +51,6 @@ const getProducto = async (id) => {
   
   return item
 }
-
 
 
 
@@ -103,3 +102,4 @@ const getOrdenCompra = async(id) => {
 
 export {cargarBDD, getProductos, getProducto, createProducto, updateProducto, deleteProducto, createOrdenCompra, getOrdenCompra}
 
+ 

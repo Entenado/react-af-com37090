@@ -2,7 +2,9 @@ import React, {useContext} from "react"
 import { useNavigate, Link } from "react-router-dom";
 import { createOrdenCompra, getProducto, updateProducto } from "../../assets/firebase"
 import { CartContext } from "../../context/CartContext"
-import {toast } from 'react-toastify';
+import { toast } from 'react-toastify';
+
+
 
 const Checkout = () => {
     const datosFormulario = React.useRef()
@@ -33,7 +35,20 @@ const Checkout = () => {
             console.error(error)
         })
         
-    }
+    }       
+
+
+    /*const Checkout = () => {
+        const datosFormulario = React.useRef()
+        const consultarFormulario = (e) => {
+            e.preventDefault()
+            console.log(datosFormulario)
+            const datForm = new FormData(datosFormulario.current)
+            const valores = Object.fromEntries(datForm)
+            console.log(valores)
+            e.target.reset()
+        }*/
+
 
     return (
         <div className="container">
