@@ -11,8 +11,8 @@ const ItemDetailContainer = () => {
     
     useEffect(() => {
         getProducto(id).then(prod => {
-            /*consultarBDD('../json/productos.json').then(productos =>{
-                const prod = productos.find(productoArray => productoArray.id === parseInt(id))*/    
+           /* consultarBDD('../json/productos.json').then(productos =>{
+                const prod = productos.find(productoArray => productoArray.id === parseInt(id))*/
             
                 setProducto(prod)
         })

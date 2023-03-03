@@ -10,6 +10,7 @@ const Checkout = () => {
     const datosFormulario = React.useRef()
     let navigate = useNavigate()
     const {cart,emptyCart, totalPrice} = useContext(CartContext);
+    
 
     const consultarFormulario = (e) => {
         e.preventDefault()
@@ -24,6 +25,7 @@ const Checkout = () => {
             })
         })
         
+       
         createOrdenCompra(valores, totalPrice(), new Date().toISOString().slice(0, 10)).then(orden => {
             toast.success(`Su orden ${orden.id} fue creada con éxito`)
             emptyCart()
@@ -37,8 +39,8 @@ const Checkout = () => {
         
     }       
 
-
-    /*const Checkout = () => {
+/*
+    const Checkout = () => {
         const datosFormulario = React.useRef()
         const consultarFormulario = (e) => {
             e.preventDefault()
@@ -47,8 +49,8 @@ const Checkout = () => {
             const valores = Object.fromEntries(datForm)
             console.log(valores)
             e.target.reset()
-        }*/
-
+        }
+*/
 
     return (
         <div className="container">

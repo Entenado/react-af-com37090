@@ -2,19 +2,19 @@
 import { initializeApp } from "firebase/app";
 import {getFirestore, collection, addDoc, getDocs, getDoc, doc, updateDoc, deleteDoc} from "firebase/firestore"
 
-
-
 const firebaseConfig = {
   apiKey: process.env.API_KEY,
-  authDomain: "react37090af.firebaseapp.com",
-  projectId: "react37090af",
-  storageBucket: "react37090af.appspot.com",
-  messagingSenderId: "202375676933",
-  appId: "1:202375676933:web:566e0d286fda0ae520486c"
+  authDomain: "react37090af-78b00.firebaseapp.com",
+  projectId: "react37090af-78b00",
+  storageBucket: "react37090af-78b00.appspot.com",
+  messagingSenderId: "1074279684671",
+  appId: "1:1074279684671:web:37c76f89fdf4c21bfe368a",
+  measurementId: "G-4FST2P75JC"
 };
 
- //Initialize Firebase
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
+//const analytics = getAnalytics(app);
 
 const db = getFirestore() 
 
@@ -51,6 +51,7 @@ const getProducto = async (id) => {
   
   return item
 }
+
 
 
 
@@ -100,6 +101,6 @@ const getOrdenCompra = async(id) => {
 }
 
 
-export {cargarBDD, getProductos, getProducto, createProducto, updateProducto, deleteProducto, createOrdenCompra, getOrdenCompra}
+export {cargarBDD,getProductos,getProducto,createProducto,updateProducto, deleteProducto,createOrdenCompra, getOrdenCompra} 
 
  
